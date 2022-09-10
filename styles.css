@@ -22,7 +22,7 @@ body {
   transform: translateX(-50%);
   left: 50%;
   position: absolute;
-  top: 0cm;
+  top: -2cm;
   z-index: -999;
   transform: skewY(-5deg);
 }
@@ -67,7 +67,7 @@ span {
   position: absolute;
   padding: 30px;
   margin: 0 auto;
-  margin-top: 45cm;
+  margin-top: 39cm;
 }
 .col {
     max-width:600px;
@@ -98,7 +98,7 @@ p {
 
 }.melimg{
   position: absolute;
-  top: 3cm;
+  top: 0.3cm;
   width: 400px;
   height: auto;
 }.img-div{
@@ -115,6 +115,6 @@ p {
   height: 800px;
   display: block;
   margin-left: -1cm;
-  top: 681px;
+  top: 579px;
   background-color:  white;
 }
