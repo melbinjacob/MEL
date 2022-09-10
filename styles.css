@@ -81,3 +81,10 @@ p {
   font-weight: 200;
   margin: 0;
 }
+.but{
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 1cm;
+
+}
