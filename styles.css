@@ -2,8 +2,8 @@
 
 :root {
     --font-size: 280px;
-    --bg-color: #1e2134;
-    --text-color : #30442a;
+    --bg-color: #a38dae;
+    --text-color : #fff;
   }
 
 
@@ -15,15 +15,16 @@ body {
   background: var(--bg-color);
   line-height: 1.7;
   color: #fff;
-  transform: skewY(-5deg);
+  
 }
 
 .bg-text-container {
   transform: translateX(-50%);
   left: 50%;
   position: absolute;
-  top: 2cm;
+  top: 0cm;
   z-index: -999;
+  transform: skewY(-5deg);
 }
 
 
@@ -38,6 +39,8 @@ body {
   display: block;
   position: relative;
   white-space: nowrap;
+  transform: skewY(-5deg);
+
 }
 .animate-text-left{
     animation: text-scrolling 20s linear infinite;
@@ -46,6 +49,7 @@ body {
     position: relative;
     white-space: nowrap;
     animation-direction: reverse;
+    transform: skewY(-5deg);
 }
 
 span {
@@ -60,10 +64,10 @@ span {
 }
 
 .container {
-  position: relative;
+  position: absolute;
   padding: 30px;
   margin: 0 auto;
-  margin-top: 2.2cm;
+  margin-top: 45cm;
 }
 .col {
     max-width:600px;
@@ -73,17 +77,44 @@ span {
 h1 {
   font-size: 55px;
   margin: 0;
+  color:#8a57a3;
 }
 
 p {
   font-size: 18px;
   font-weight: 200;
   margin: 0;
+  color:#8a57a3;
 }
 .but{
   padding: 10px 20px;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 30px;
   margin-top: 0.7cm;
+  background-image: linear-gradient(to right, #8a57a3 ,#9460ad);
+  border: none;
+  color: #fff;
+  border-radius: 20px;
 
+}.melimg{
+  position: absolute;
+  top: 3cm;
+  width: 400px;
+  height: auto;
+}.img-div{
+  position: absolute;
+  top: 1cm;
+  width: 100%;
+  height: 80px;
+  color: #000;
+  background-image: linear-gradient(to right rgba(163,141,174,1)
+  ,rgb(45, 39, 48));
+}.box{
+  position: absolute;
+  width: 130%;
+  height: 800px;
+  display: block;
+  margin-left: -1cm;
+  top: 681px;
+  background-color:  white;
 }
