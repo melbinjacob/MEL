@@ -105,65 +105,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
-}@media only screen and (max-width:400px){
-  .im-melbin{
-    position: relative;
-    top: -0.1cm;
-  }.bio{
-    position: relative;
-    top: 1cm;
-    width: 250px;
-  }.but{
-    position: relative;
-    top: 2.3cm;
-  }.melimg{
-    width: 300PX;
-    top: 110PX;
-  }:root {
-    --font-size: 150px;
-    --bg-color: #a38dae;
-    --text-color : #fff;
-  }.bg-text-container{
-    position: absolute;
-    top: 2cm;
-  }
-}@media only screen and (max-width:330px){
-  .im-melbin{
-    position: relative;
-    top: -0.5cm;
-    font-size: 45px;
-  }.bio{
-    position: relative;
-    top: 0.5cm;
-    width: 250px;
-    font-size: 18px;
-  }.but{
-    position: relative;
-    top: 1.8cm;
-    font-size: 22px;
-  }.melimg{
-    width: 300PX;
-    top: 110PX;
-  }:root {
-    --font-size: 150px;
-    --bg-color: #a76bc2;
-    --text-color : #fff;
-  }.bg-text-container{
-    position: absolute;
-    top: 2cm;
-  }
-}@media only screen and (min-width:900px){
-  .im-melbin{
-  font-size: 55px;
-  }.img-center{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  }
-}
-
-
-* {
+}* {
   margin: 0;
   padding: 0;
 }
@@ -207,4 +149,68 @@ span1 {
   text-transform: uppercase;
   line-height: .8;
   transition: ease-out .6s;
+}
+
+@media only screen and (max-width:400px){
+  .im-melbin{
+    position: relative;
+    top: -0.1cm;
+  }.bio{
+    position: relative;
+    top: 1cm;
+    width: 250px;
+  }.but{
+    position: relative;
+    top: 2.3cm;
+  }.melimg{
+    width: 300PX;
+    top: 110PX;
+  }:root {
+    --font-size: 150px;
+    --bg-color: #a76bc2;
+    --text-color : #fff;
+  }.bg-text-container{
+    position: absolute;
+    top: 2cm;
+  }.whole{
+    position: absolute;
+    top: 19cm;
+  }
+}@media only screen and (max-width:330px){
+  .im-melbin{
+    position: relative;
+    top: -0.5cm;
+    font-size: 45px;
+  }.bio{
+    position: relative;
+    top: 0.5cm;
+    width: 250px;
+    font-size: 18px;
+  }.but{
+    position: relative;
+    top: 1.8cm;
+    font-size: 22px;
+  }.melimg{
+    width: 300PX;
+    top: 110PX;
+  }:root {
+    --font-size: 150px;
+    --bg-color: #a76bc2;
+    --text-color : #fff;
+  }.bg-text-container{
+    position: absolute;
+    top: 2cm;
+  }.whole{
+    position: absolute;
+    top: 17cm;
+  }
+}
+@media only screen and (min-width:900px){
+  .im-melbin{
+  font-size: 55px;
+  }.img-center{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  }
 }
