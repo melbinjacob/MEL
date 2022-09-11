@@ -64,38 +64,52 @@ span {
 }
 
 .container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
   position: absolute;
   padding: 30px;
   margin: 0 auto;
-  margin-top: 40cm;
+  margin-left: -0.8cm;
+  margin-top: 34cm;
 }
-.col {
-    max-width:600px;
-    margin: 0;
-  }
 
 .im-melbin {
   font-size: 55px;
   margin: 0;
   color:#8a57a3;
 }
-
+.col {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  margin-top: 40cm;
+}
 .bio {
   font-size: 18px;
   font-weight: 200;
   margin: 0;
   color:#8a57a3;
+  text-align: center;
+  width: 450px;
 }
+
 .but{
   padding: 10px 20px;
   font-weight: 600;
   font-size: 30px;
-  margin-top: 0.7cm;
   background-image: linear-gradient(to right, #8a57a3 ,#9568ab, #8a57a3);
   border: none;
   color: #fff;
   border-radius: 20px;
 
+}.button-center{
+  position: absolute;
+  top: 22.5cm;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }.melimg{
   position: absolute;
   top: 0.3cm;
@@ -117,17 +131,35 @@ span {
 
 @media only screen and (max-width:400px){
   .im-melbin{
-  font-size: 45px;
-  margin-top: 1cm;
+    position: relative;
+    top: -0.5cm;
+  }.bio{
+    position: relative;
+    top: 1cm;
+    width: 250px;
+  }.but{
+    position: relative;
+    top: 2cm;
   }
 }
 
-@media only screen and (max-width:335px){
+@media only screen and (max-width:330px){
   .im-melbin{
-  font-size: 35px;
-  margin-top: 2cm;
+    position: relative;
+    top: -0.5cm;
+    font-size: 40px;
+  }.bio{
+    position: relative;
+    top: 1cm;
+    width: 250px;
+    font-size: 20px;
+  }.but{
+    position: relative;
+    top: 2.8cm;
   }
 }
+
+
 
 @media only screen and (min-width:900px){
   .im-melbin{
