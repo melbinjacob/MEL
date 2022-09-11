@@ -91,7 +91,7 @@ span {
   font-weight: 600;
   font-size: 30px;
   margin-top: 0.7cm;
-  background-image: linear-gradient(to right, #8a57a3 ,#9460ad);
+  background-image: linear-gradient(to right, #8a57a3 ,#9568ab, #8a57a3);
   border: none;
   color: #fff;
   border-radius: 20px;
@@ -101,14 +101,6 @@ span {
   top: 0.3cm;
   width: 400px;
   height: auto;
-}.img-div{
-  position: absolute;
-  top: 1cm;
-  width: 100%;
-  height: 80px;
-  color: #000;
-  background-image: linear-gradient(to right rgba(163,141,174,1)
-  ,rgb(45, 39, 48));
 }.box{
   position: absolute;
   width: 130%;
@@ -117,18 +109,34 @@ span {
   margin-left: -1cm;
   top: 579px;
   background-color:  white;
-}@media only screen and (max-width:400px){
+}.img-center{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+@media only screen and (max-width:400px){
   .im-melbin{
-    font-size: 45px;
-    margin-top: 1cm;
-  }.melimg{
-    left: -0.15cm;
+  font-size: 45px;
+  margin-top: 1cm;
   }
-}@media only screen and (max-width:335px){
+}
+
+@media only screen and (max-width:335px){
   .im-melbin{
-    font-size: 35px;
-    margin-top: 2cm;
-  }.melimg{
-    left: -1cm;
+  font-size: 35px;
+  margin-top: 2cm;
+  }
+}
+
+@media only screen and (min-width:900px){
+  .im-melbin{
+  font-size: 55px;
+  }
+  
+  .img-center{
+  display: flex;
+  justify-content: center;
+  width: 100%;
   }
 }
