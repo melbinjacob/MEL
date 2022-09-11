@@ -74,13 +74,13 @@ span {
     margin: 0;
   }
 
-h1 {
+.im-melbin {
   font-size: 55px;
   margin: 0;
   color:#8a57a3;
 }
 
-p {
+.bio {
   font-size: 18px;
   font-weight: 200;
   margin: 0;
@@ -117,4 +117,18 @@ p {
   margin-left: -1cm;
   top: 579px;
   background-color:  white;
+}@media only screen and (max-width:400px){
+  .im-melbin{
+    font-size: 45px;
+    margin-top: 1cm;
+  }.melimg{
+    left: -0.7cm;
+  }
+}@media only screen and (max-width:335px){
+  .im-melbin{
+    font-size: 35px;
+    margin-top: 2cm;
+  }.melimg{
+    left: -1cm;
+  }
 }
