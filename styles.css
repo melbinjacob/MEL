@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:800,200);
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100');
+@import url(https://fonts.googleapis.com/css?family=Montserrat:800,200,400,500);
+
 
 :root {
   --font-size: 280px;
@@ -67,6 +67,10 @@
   position: absolute;
   margin-top: 40cm;
   margin-left: -0.25cm;
+}.redgod{
+  font-weight: 400;
+  text-decoration: none;
+  color: #6b3485;
 }.bio {
   font-size: 18px;
   font-weight: 200;
@@ -74,6 +78,7 @@
   color:#a76bc2;
   text-align: center;
   width: 450px;
+  font-weight: 400;
 }.but{
   padding: 10px 20px;
   font-weight: 600;
@@ -159,11 +164,14 @@
   }
 }@media only screen and (min-width:900px){
   .im-melbin{
-  font-size: 55px;
+  font-size: 70px;
   }.img-center{
   display: flex;
   justify-content: center;
   width: 100%;
+  }.bio{
+    width: 950px;
+    font-size: 25px;
   }
 }@media only screen and (max-width:270px){
   .im-melbin{
