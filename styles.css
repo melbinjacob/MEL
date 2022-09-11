@@ -1,13 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:800,200);
 
 :root {
-    --font-size: 280px;
-    --bg-color: #a38dae;
-    --text-color : #fff;
-  }
-
-
-body {
+  --font-size: 280px;
+  --bg-color: #a38dae;
+  --text-color : #fff;
+}body {
   font-family: montserrat;
   overflow-x: hidden;
   display: flex;
@@ -15,44 +12,32 @@ body {
   background: var(--bg-color);
   line-height: 1.7;
   color: #fff;
-  
-}
-
-.bg-text-container {
+}.bg-text-container {
   transform: translateX(-50%);
   left: 50%;
   position: absolute;
   top: -2cm;
   z-index: -999;
   transform: skewY(-5deg);
-}
-
-
-@keyframes text-scrolling {
+}@keyframes text-scrolling {
   0% { transform: translate3d(-100%, 0, 0); }
   100% { transform: translate3d(0%, 0, 0); }
-}
-
-.animate-text {
+}.animate-text {
   animation: text-scrolling 20s linear infinite;
   will-change: transform;
   display: block;
   position: relative;
   white-space: nowrap;
   transform: skewY(-5deg);
-
-}
-.animate-text-left{
-    animation: text-scrolling 20s linear infinite;
-    will-change: transform;
-    display: block;
-    position: relative;
-    white-space: nowrap;
-    animation-direction: reverse;
-    transform: skewY(-5deg);
-}
-
-span {
+}.animate-text-left{
+  animation: text-scrolling 20s linear infinite;
+  will-change: transform;
+  display: block;
+  position: relative;
+  white-space: nowrap;
+  animation-direction: reverse;
+  transform: skewY(-5deg);
+}span {
   font-size: var(--font-size);
   color: transparent;
   -webkit-text-stroke: 2px var(--text-color);
@@ -61,41 +46,34 @@ span {
   line-height: 0.75;
   min-width: auto;
   font-weight: 800;
-}
-
-.container {
+}.container {
   display: flex;
   justify-content: center;
   width: 100%;
   position: absolute;
   padding: 30px;
   margin: 0 auto;
-  margin-left: -0.8cm;
+  margin-left: -0.9cm;
   margin-top: 34cm;
-}
-
-.im-melbin {
+}.im-melbin {
   font-size: 55px;
   margin: 0;
   color:#8a57a3;
-}
-.col {
+}.col {
   display: flex;
   justify-content: center;
   width: 100%;
   position: absolute;
   margin-top: 40cm;
-}
-.bio {
+  margin-left: -0.25cm;
+}.bio {
   font-size: 18px;
   font-weight: 200;
   margin: 0;
   color:#8a57a3;
   text-align: center;
   width: 450px;
-}
-
-.but{
+}.but{
   padding: 10px 20px;
   font-weight: 600;
   font-size: 30px;
@@ -103,13 +81,13 @@ span {
   border: none;
   color: #fff;
   border-radius: 20px;
-
 }.button-center{
   position: absolute;
   top: 22.5cm;
   display: flex;
   justify-content: center;
   width: 100%;
+  margin-left: -0.35cm;
 }.melimg{
   position: absolute;
   top: 0.3cm;
@@ -127,46 +105,57 @@ span {
   display: flex;
   justify-content: center;
   width: 100%;
-}
-
-@media only screen and (max-width:400px){
+}@media only screen and (max-width:400px){
   .im-melbin{
     position: relative;
-    top: -0.5cm;
+    top: -0.1cm;
   }.bio{
     position: relative;
     top: 1cm;
     width: 250px;
   }.but{
     position: relative;
+    top: 2.3cm;
+  }.melimg{
+    width: 300PX;
+    top: 110PX;
+  }:root {
+    --font-size: 150px;
+    --bg-color: #a38dae;
+    --text-color : #fff;
+  }.bg-text-container{
+    position: absolute;
     top: 2cm;
   }
-}
-
-@media only screen and (max-width:330px){
+}@media only screen and (max-width:330px){
   .im-melbin{
     position: relative;
     top: -0.5cm;
-    font-size: 40px;
+    font-size: 45px;
   }.bio{
     position: relative;
-    top: 1cm;
+    top: 0.5cm;
     width: 250px;
-    font-size: 20px;
+    font-size: 18px;
   }.but{
     position: relative;
-    top: 2.8cm;
+    top: 1.8cm;
+    font-size: 22px;
+  }.melimg{
+    width: 300PX;
+    top: 110PX;
+  }:root {
+    --font-size: 150px;
+    --bg-color: #a38dae;
+    --text-color : #fff;
+  }.bg-text-container{
+    position: absolute;
+    top: 2cm;
   }
-}
-
-
-
-@media only screen and (min-width:900px){
+}@media only screen and (min-width:900px){
   .im-melbin{
   font-size: 55px;
-  }
-  
-  .img-center{
+  }.img-center{
   display: flex;
   justify-content: center;
   width: 100%;
