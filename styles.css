@@ -55,7 +55,7 @@
   padding: 30px;
   margin: 0 auto;
   margin-left: -0.9cm;
-  margin-top: 34cm;
+  margin-top: 40cm;
 }.im-melbin {
   font-size: 55px;
   margin: 0;
@@ -65,7 +65,7 @@
   justify-content: center;
   width: 100%;
   position: absolute;
-  margin-top: 40cm;
+  top: 4cm;
   margin-left: -0.25cm;
 }.redgod{
   font-weight: 400;
@@ -89,39 +89,53 @@
   border-radius: 20px;
 }.button-center{
   position: absolute;
-  top: 22.5cm;
+  top: 8cm;
   display: flex;
   justify-content: center;
   width: 100%;
   margin-left: -0.35cm;
 }.melimg{
   position: absolute;
-  top: 0.3cm;
+  top: 1.5cm;
   width: 400px;
   height: auto;
+
 }.box{
   position: absolute;
   width: 130%;
-  height: 390px;
+  height: 1000px;
   display: block;
   margin-left: -1cm;
-  top: 579px;
+  top: 679px;
   background-color:  white;
 }.img-center{
   display: flex;
   justify-content: center;
   width: 100%;
+}.dev-train{
+  color: #a76bc2;
+  display: flex;
+  position: absolute;
+  top: 10cm;
+  font-size: 20px;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
 }@media only screen and (max-width:400px){
   .im-melbin{
     position: relative;
-    top: -0.1cm;
+    top: -3.8cm;
+    font-size: 45px;
   }.bio{
     position: relative;
-    top: 1cm;
-    width: 250px;
+    top: -4.8cm;
+    width: 280px;
+    font-size: 14px;
   }.but{
     position: relative;
-    top: 2.3cm;
+    top: -5cm;
+    font-size: 25px;
   }.melimg{
     width: 300PX;
     top: 110PX;
@@ -134,21 +148,22 @@
     top: 2cm;
   }.box{
     height: 450px;
+    margin-top: -3cm;
   }
 }@media only screen and (max-width:330px){
   .im-melbin{
     position: relative;
-    top: -0.5cm;
+    top: -3.9cm;
     font-size: 45px;
   }.bio{
     position: relative;
-    top: 0.5cm;
-    width: 250px;
-    font-size: 18px;
+    top: -5cm;
+    width: 280px;
+    font-size: 14px;
   }.but{
     position: relative;
-    top: 1.8cm;
-    font-size: 22px;
+    top: -5.2cm;
+    font-size: 25px;
   }.melimg{
     width: 300PX;
     top: 110PX;
@@ -161,6 +176,7 @@
     top: 2cm;
   }.box{
     height: 450px;
+    margin-top: -3cm;
   }
 }@media only screen and (min-width:900px){
   .im-melbin{
