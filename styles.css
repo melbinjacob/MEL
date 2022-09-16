@@ -195,7 +195,7 @@
     position: absolute;
     top: 2cm;
   }.box{
-    height: 1800px;
+    height: 1700px;
     margin-top: -3cm;
   }.web-img{
     width: 280px;
@@ -240,7 +240,7 @@
     margin-left: -0.35cm;
   }.but{
     position: relative;
-    font-size: 25px;
+    font-size: 20px;
   }.melimg{
     width: 300PX;
     top: 110PX;
@@ -251,8 +251,9 @@
   }.bg-text-container{
     position: absolute;
     top: 2cm;
+    
   }.box{
-    height: 1800px;
+    height: 1700px;
     margin-top: -3cm;
   }
 }@media only screen and (min-width:900px){
