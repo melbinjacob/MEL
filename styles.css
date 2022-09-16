@@ -148,19 +148,23 @@
   border-radius: 20px;
 }.button-center{
   position: absolute;
-  top: 55.4cm;
+  top: 55.2cm;
   display: flex;
   justify-content: center;
   width: 100%;
   margin-left: -0.35cm;
-}.footer{
+}
+
+/* .footer{
   position: absolute;
-  top: 60cm;
+  top: 0cm;
   display: block;
   width: 100%;
   height: 100px;
   background-color: #a76bc2;
-}@media only screen and (max-width:400px){
+} */
+
+@media only screen and (max-width:400px){
   .im-melbin{
     position: relative;
     top: -3.8cm;
@@ -170,9 +174,15 @@
     top: -4.8cm;
     width: 280px;
     font-size: 14px;
+  }.button-center{
+    position: absolute;
+    top: 38cm;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: -0.35cm;
   }.but{
     position: relative;
-    top: -17cm;
     font-size: 20px;
   }.melimg{
     width: 300PX;
@@ -221,9 +231,15 @@
     top: -5cm;
     width: 280px;
     font-size: 14px;
+  }.button-center{
+    position: absolute;
+    top: 38cm;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: -0.35cm;
   }.but{
     position: relative;
-    top: -5.2cm;
     font-size: 25px;
   }.melimg{
     width: 300PX;
@@ -236,7 +252,7 @@
     position: absolute;
     top: 2cm;
   }.box{
-    height: 1000px;
+    height: 1800px;
     margin-top: -3cm;
   }
 }@media only screen and (min-width:900px){
