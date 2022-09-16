@@ -155,14 +155,19 @@
   margin-left: -0.35cm;
 }
 
-/* .footer{
-  position: absolute;
-  top: 0cm;
+.footer{
+  position:absolute; 
+  top: 40cm;
   display: block;
   width: 100%;
   height: 100px;
-  background-color: #a76bc2;
-} */
+  background-color: #fff;
+  color: #9568ab;
+  text-align: center;
+}.footer p{
+  font-size: 8px;
+  margin-top: 0.5cm;
+}
 
 @media only screen and (max-width:400px){
   .im-melbin{
@@ -251,7 +256,7 @@
   }.bg-text-container{
     position: absolute;
     top: 2cm;
-    
+
   }.box{
     height: 1700px;
     margin-top: -3cm;
