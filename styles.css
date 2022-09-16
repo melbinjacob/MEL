@@ -120,8 +120,8 @@
   width: 100%;
   position: absolute;
   top: 35cm;
-}.photographer.img{
-  width: 500px;
+}.photographer-img{
+  width: 350px;
   align-items: center;
   text-align: center;
 }.photographer-txt{
@@ -172,8 +172,8 @@
     font-size: 14px;
   }.but{
     position: relative;
-    top: -5cm;
-    font-size: 25px;
+    top: -17cm;
+    font-size: 20px;
   }.melimg{
     width: 300PX;
     top: 110PX;
@@ -185,8 +185,31 @@
     position: absolute;
     top: 2cm;
   }.box{
-    height: 2800px;
+    height: 1800px;
     margin-top: -3cm;
+  }.web-img{
+    width: 280px;
+    margin-top: -5cm;
+  }.dev-train{
+    margin-top: -9cm;
+  }.dev-train h1{
+    font-size: 20px;
+  }.dev-train p{
+    font-size: 12px;
+    width: 300px;
+    margin-top: -1cm;
+  }.photographer-img{
+    margin-top: -16cm;
+    width: 200px;
+    height: auto;
+  }.photographer-txt{
+    margin-top: -16.5cm;  
+  }.photographer-txt h1{
+    font-size: 20px; 
+  }.photographer-txt p{
+    font-size: 12px; 
+    width: 300px;
+    margin-top: -0.5cm;
   }
 }@media only screen and (max-width:330px){
   .im-melbin{
